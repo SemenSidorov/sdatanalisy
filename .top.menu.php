@@ -1,0 +1,53 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Анализы", 
+		"/analyzes/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Услуги", 
+		"/services/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Клиники", 
+		"/clinics/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Врачи", 
+		"/doctors/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Статьи", 
+		"/articles/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"О компании", 
+		"/company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Партнеры",
+		"/partners/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

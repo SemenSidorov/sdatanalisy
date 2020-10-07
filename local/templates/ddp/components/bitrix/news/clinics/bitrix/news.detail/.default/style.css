@@ -1,0 +1,212 @@
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+.clinic-contact__map{
+	position:relative;
+}
+
+
+
+.services-slider__item {
+    padding: 30px 29px 31px 32px;
+    -webkit-box-flex: calc(33.3% - 30px);
+    -ms-flex: calc(33.3% - 30px);
+    flex: calc(33.3% - 30px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-left: 30px;
+    border-radius: 20px;
+		background-color: #EEF9F1;
+		margin-top:10px;
+		}
+.middle__h3:nth-child(4){
+		margin-top:20px;
+		}
+		.analyzes-slider__item{
+		
+			margin-top:10px;
+		}
+		
+/*Стили только для смартфонов*/
+
+
+@media only screen and (max-device-width: 480px) {
+
+ .licenses__item_title_mobile{
+	   
+   position:relative;
+   
+   
+   right:10px;
+    top:20px;
+	margin: 10px 10px 10px 10px;
+	
+   color:#1891DC
+ }
+ @media only screen and (max-device-width: 480px) {
+ .search-clinics__map points mobile{
+		 position: absolute;
+    width: 133%;
+    height: 100%;
+    right: 40px;
+	 }
+ }
+@media only screen and (max-device-width: 480px) {
+	.points__map{
+		position: absolute;
+    right: 235px;
+    top: 0;
+    width: 140px;
+    height: 140px;
+	}
+}
+ @media screen and (max-device-width: 480px) {
+ .ymaps-2-1-77-inner-panes {
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+ }}
+.licenses__item_pdf{
+  display:none;
+  visibility:hidden;
+   position: relative;
+   
+ 
+   
+   background-image: url("img/pdf_fonth.png");
+	background-size: 70px;
+	background-color: #FFFFFF;
+
+background-repeat: none;
+background-position: absolute;
+
+}
+
+.licenses__item_title{
+	    display:none;
+  visibility:hidden;
+   position: relative;
+   
+ 
+   
+   background-image: url("img/pdf_fonth.png");
+	background-size: 70px;
+	background-color: #FFFFFF;
+
+background-repeat: none;
+background-position: absolute;
+   
+ }
+}
+@media only screen and (min-device-width: 481px)
+{.licenses__item_title_mobile{
+	   
+    display:none;
+  visibility:hidden;
+  
+   position:relative;
+   
+   margin-bottom:1px;
+   right:10px;
+    margin-right:1px;
+   color:#1891DC
+}}
+
+.licenses__item_pdf[href$=".pdf"] {
+   
+   position: relative;
+   height:67px;
+   width:70px;
+ 
+   margin-bottom: 20px;
+   margin-left:20px;
+   margin-right:20px;
+   background-image: url("img/pdf_fonth.png");
+	background-size: 70px;
+	background-color: #FFFFFF;
+
+background-repeat: none;
+background-position: absolute;
+left:20px;
+}
+.licenses__item_pdf[href$=".pdf"]:hover {
+
+   position: relative;
+   height:67px;
+   width:70px;
+ 
+   margin-bottom: 20px;
+   margin-left:20px;
+   margin-right:20px;
+   background-image: url("img/pdf_fonth.png");
+	background-size: 70px;
+	background-color: #FFFFFF;
+
+background-repeat: none;
+background-position: absolute;
+left:20px;
+}
+.licenses__item_title{
+	 
+   position: relative;
+   margin-top: 20px;
+ margin-bottom: 20px;
+   margin-left:10px;
+   margin-right:10px;
+   text-align:center-left;
+    text-decoration: none;
+	font-weight:550;
+   color: #1875CC;
+}
+/*.licenses__item_title:hover{
+	 
+   position: relative;
+   margin-top: 20px;
+ margin-bottom: 10px;
+   margin-left:10px;
+   margin-right:10px;
+   text-align:center-left;
+   font-weight:550;
+   color: #303737;
+}*/
+
+.points__sidebar{
+	visibility: hidden;
+	position:absolute;
+	right:0;
+}
+ @media (max-width: 425px){
+.ymaps-2-1-77-gototech{
+	display: none !important;
+}
+}
+ 
+.price__old_num{
+    margin-top: -7px;
+    text-decoration: line-through;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #778990;
+}
+.price__num{
+	margin-top: -7px;
+	font-size: 22px;
+}
